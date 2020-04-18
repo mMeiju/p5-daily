@@ -28,7 +28,7 @@ const sketch = (p: p5) => {
               p.translate(p.sin(p.frameCount * 0.001 + j) * 200, p.sin(p.frameCount * 0.001 + j) * 300, i * 0.1);
               p.rotateZ(p.frameCount * 0.002);
               p.push();
-              p.box(2, 10, 100); 
+              p.square(2, 10, 5); 
               p.pop();
             }
             p.pop();

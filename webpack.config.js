@@ -13,10 +13,16 @@ module.exports = {
       }
     ]
   },
+
   resolve: {
     modules: [
       "node_modules"
     ],
     extensions: [".ts", ".js"]
+  },
+
+  // https://biwanoie.tokyo/kp3gf/
+  watchOptions:{
+    poll: true,
   }
 };
